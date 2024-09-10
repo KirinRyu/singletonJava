@@ -6,6 +6,7 @@ public class App {
         unicaFila.removeDocumento();
         unicaFila.removeTodosDocumento();
 
+        
         Fila segundaFila = Fila.getInstance();
         segundaFila.imprimeDocumento();
         segundaFila.removeDocumento();
